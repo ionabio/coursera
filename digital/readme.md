@@ -1,6 +1,7 @@
 # Solutions to question and assignments of Fundamentals of Digital Image and Video Processing
-Course page is [here](https://www.coursera.org/learn/digital)
-I have used the provided Matlab online workspace to work on problems.
+Course page is [here](https://www.coursera.org/learn/digital).
+
+I have used the provided Matlab online workspace to work on problems. Using `Octave` as a free alternative should be fine. 
 They are usually catagorised in two forms
 
 - `week#_qs.m` which include a workbook style to get to solutions of the quiz, which don't require us to use `Matlab` and could be done by hand or paper, however it was easier to just write a program 
