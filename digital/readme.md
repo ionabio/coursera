@@ -1,0 +1,1 @@
+This folder contains solutions to question and problems of coursera course on digital image processing.
