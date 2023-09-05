@@ -1,6 +1,8 @@
 # Solutions for Coding for everyone
 
-Courses are categorized in folder
+Specialization page is [here](https://www.coursera.org/specializations/coding-for-everyone)
+
+There are 4 courses and categorized in folder as follows:
 
 - C for everyone A : CfEA
 - C for everyone B : CfEB
