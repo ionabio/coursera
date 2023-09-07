@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+# Debug files
+*.pdb
+*.ilk
+
+# vscoed
+*.vscode
+```
+
