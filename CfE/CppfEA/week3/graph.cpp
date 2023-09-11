@@ -10,6 +10,11 @@
 #include <set>
 #include <algorithm>
 #include <random>
+#include <assert.h>
+
+#ifndef INT_MAX
+#define INT_MAX 2147483647
+#endif
 
 const std::string Notes = R"( - - - Implemntation of Dijkstra's shortest path algorithem - - -
 
@@ -43,7 +48,7 @@ class Edge{
     Edge(const int& v_1,const int& v_2)
     {
         if(v_1 == v_2)
-            throw std::exception("Invalid edge");
+            assert(false); //No self loops allowed
         if (v_1 < v_2)
         {
             v1 = v_1;
@@ -239,7 +244,8 @@ class ShortestPath{
     }
     int pathDistance(const int& v1,const int& v2)
     {
-        return dijkestra(graph, v1, v2,  std::vector<int>());
+        auto dummy = std::vector<int>();
+        return dijkestra(graph, v1, v2, dummy);
     }
 };
 
